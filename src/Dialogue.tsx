@@ -4,6 +4,7 @@ import { dialogues } from "./dialogues";
 var id = 0;
 
 function Dialogue() {
+  document.title = "Bain's Dialogues";
   const [search, setSearch] = useState("");
   const [filteredDialogues, setFilteredDialogues] = useState(() => dialogues);
 
