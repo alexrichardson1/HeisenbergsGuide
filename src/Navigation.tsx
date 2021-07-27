@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import Dialogue from "./Dialogue";
-import NotFoundPage from "./NotFoundPage";
+import NoPageFound from "./NoPageFound";
 
 const Navigation = () => {
   return (
@@ -15,7 +15,7 @@ const Navigation = () => {
         <Switch>
           <Route exact path="/" component={App}></Route>
           <Route path="/dialogue" component={Dialogue}></Route>
-          <Route path="/404" component={NotFoundPage}></Route>
+          <Route path="/404" component={NoPageFound}></Route>
           <Redirect to="/404"></Redirect>
         </Switch>
       </div>
