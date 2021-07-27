@@ -40,8 +40,10 @@
 h1 {
   font-size: 2em;
   padding: 10px 10px;
-  border: 10px solid;
+  border: 10px solid white;
   display: inline-flex;
+  background-color: lightblue;
+  margin-left: 50px;
 }
 
 body {
@@ -51,7 +53,7 @@ body {
 }
 
 .info {
-  border: 5px solid black;
+  border: 5px solid white;
   display: inline-block;
   clear: left;
   background-color: lightblue;
@@ -59,6 +61,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 *:before,
@@ -68,7 +72,7 @@ body {
   margin: 0;
   font: 300 1em/1.5 "Open Sans", "Helvetica Neue", Arial, sans-serif;
   text-decoration: none;
-  color: #111;
+  color: white;
 }
 
 section.container {
@@ -85,7 +89,7 @@ button {
   background: transparent;
   outline: none;
   position: relative;
-  border: 2px solid #111;
+  border: 2px solid white;
   padding: 15px 50px;
   overflow: hidden;
 }
@@ -121,4 +125,5 @@ button div {
   font-weight: 800;
   font-size: 0.8em;
   transition: all 0.3s ease-in-out;
+  color: white;
 }
