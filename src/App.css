@@ -46,6 +46,8 @@ h1 {
 
 body {
   background: rgb(236, 240, 241);
+  background-image: url(images/dallas.jpg);
+  background-attachment:fixed;
 }
 
 .info {
