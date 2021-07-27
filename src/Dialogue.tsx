@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
+import { dialogues } from "./dialogues";
 
-const dialogues = [
-  "Now we need... I'm going with (ingredient). Hold up!",
-  "Uh... mhm...We'll go with (ingredient). Nope, that's not it!",
-];
 var id = 0;
 
 function Dialogue() {
@@ -11,7 +8,9 @@ function Dialogue() {
   const [filteredDialogues, setFilteredDialogues] = useState(() => dialogues);
 
   useEffect(() => {
-    setFilteredDialogues(dialogues.filter((d) => d.includes(search)));
+    setFilteredDialogues(
+      dialogues.filter((d) => d.toLowerCase().includes(search.toLowerCase()))
+    );
   }, [search]);
 
   return (
