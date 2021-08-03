@@ -1,8 +1,7 @@
-import { render, screen } from "@testing-library/react";
+import renderer from "react-test-renderer";
 import Home from "./components/Home";
 
-test("renders learn react link", () => {
-  render(<Home />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("renders correctly", () => {
+  const tree = renderer.create(<Home />).toJSON();
+  expect(tree).toMatchSnapshot();
 });
