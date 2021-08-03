@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className="container">
         <Switch>
           <Route exact path="/" component={App}></Route>
-          <Route path="/dialogue" component={Dialogue}></Route>
+          <Route exact path="/dialogue" component={Dialogue}></Route>
           <Route path="/404" component={NoPageFound}></Route>
           <Redirect to="/404"></Redirect>
         </Switch>
