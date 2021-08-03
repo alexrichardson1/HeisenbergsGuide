@@ -5,6 +5,7 @@ h1 {
   display: inline-flex;
   background-color: lightblue;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 body {
@@ -88,3 +89,8 @@ button div {
   transition: all 0.3s ease-in-out;
   color: white;
 }
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
