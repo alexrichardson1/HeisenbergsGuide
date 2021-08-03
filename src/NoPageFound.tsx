@@ -1,5 +1,5 @@
 import { LinkContainer } from "react-router-bootstrap";
-import "./NoPageFound.css";
+import "./styles/NoPageFound.css";
 
 function NoPageFound() {
   return (
