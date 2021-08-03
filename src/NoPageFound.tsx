@@ -1,7 +1,16 @@
+import { LinkContainer } from "react-router-bootstrap";
+import "./NoPageFound.css";
+
 function NoPageFound() {
   return (
     <div>
-      <h3>Page Not Found!</h3>
+      <LinkContainer to="/">
+        <section className="container">
+          <button data-hover="Go to Home">
+            <div>404 Page Not Found</div>
+          </button>
+        </section>
+      </LinkContainer>
     </div>
   );
 }
