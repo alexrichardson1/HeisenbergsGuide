@@ -3,7 +3,7 @@ h1 {
   padding: 10px 10px;
   border: 10px solid white;
   display: inline-flex;
-  background-color: lightblue;
+  background-color: blue;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -18,8 +18,9 @@ body {
   border: 5px solid white;
   display: inline-block;
   clear: left;
-  background-color: lightblue;
+  background-color: blue;
   font-size: 0.75em;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 20px 20px;
