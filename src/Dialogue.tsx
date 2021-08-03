@@ -3,6 +3,7 @@ import { dialogues } from "./dialogues";
 import "./Dialogue.css";
 
 function Dialogue() {
+  var id = 0;
   document.title = "Bain's Dialogues";
   const [search, setSearch] = useState("");
   const [filteredDialogues, setFilteredDialogues] = useState(() => dialogues);
@@ -23,7 +24,7 @@ function Dialogue() {
       />
       <span className="table">
         {filteredDialogues.map((d) => (
-          <div key={d}>{d}</div>
+          <div key={id++}>{d}</div>
         ))}
       </span>
     </div>
