@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h1>
+    Dialogue Lists
+  </h1>
+  <input
+    onChange={[Function]}
+    placeholder="Enter Bain's Dialogue Here"
+    type="text"
+  />
+  <span
+    className="table"
+  >
+    <div>
+      Now we need... I'm going with (ingredient). Hold up! ❌
+    </div>
+    <div>
+      Uh... mhm...We'll go with (ingredient). Nope, that's not it! ❌
+    </div>
+    <div>
+      Alright, next ingredient...(ingredient)? Sorry, that wasn't right. ❌
+    </div>
+    <div>
+      Alright, let's see...We'll go with (ingredient). Strike that. ❌
+    </div>
+    <div>
+      Hold on... I'm going with (ingredient). Wait a minute! ❌
+    </div>
+    <div>
+      Uh, I hope I got this right... (ingredient)? ...I'm XX% sure. ✅
+    </div>
+    <div>
+      Uh. I hope I got this right... (ingredient)? You got any of that lying around? ✅
+    </div>
+    <div>
+      Uh. I hope I got this right... We'll go with (ingredient). ...I...think. ✅
+    </div>
+    <div>
+      Okay, what's next... (ingredient)? ...I'm XX% sure. ✅
+    </div>
+    <div>
+      Okay, what's next... Oh I'm going with (ingredient). ...it's a toss-up, really. ✅
+    </div>
+    <div>
+      Okay, what comes after that... We'll go with (ingredient). That should get the process going. ✅
+    </div>
+    <div>
+      Okay, what comes after that... (ingredient). That should get the process going. ✅
+    </div>
+    <div>
+      Okay, what comes after that... It's (ingredient). That should get it on. ✅
+    </div>
+    <div>
+      Uh... mhm... It's (ingredient). ...that's my very best guess. ✅
+    </div>
+    <div>
+      Uh... mhm... (ingredient). ...this website better be accurate. ✅
+    </div>
+    <div>
+      Uh... mhm... (ingredient). That should get it on. ✅
+    </div>
+    <div>
+      Uh... mhm... (ingredient)? ...IF my calculations are correct. ✅
+    </div>
+    <div>
+      Uh... mhm... (ingredient)? ...and kiss your lucky charms. ✅
+    </div>
+    <div>
+      Uh... mhm... I'm going with (ingredient). Go for it. ✅
+    </div>
+    <div>
+      Alright, next ingredient... We'll go with (ingredient). That should get the process going. ✅
+    </div>
+    <div>
+      Alright, next ingredient... We'll go with (ingredient). ...I'm XX% sure. ✅
+    </div>
+    <div>
+      Alright, let's see... (ingredient). ...I think so, at least. ✅
+    </div>
+    <div>
+      Alright, let's see... (ingredient). ...I think so, at least. ✅
+    </div>
+    <div>
+      Alright, let's see... (ingredient)? ...yeah... yeah. ✅
+    </div>
+    <div>
+      Alright, let's see... (ingredient)? ...I'm XX% sure. ✅
+    </div>
+    <div>
+      Alright, let's see... It's (ingredient). ...unless I've missed something... ✅
+    </div>
+    <div>
+      Uh, I hope I got this right... (ingredient)? You got any of that lying around? ✅
+    </div>
+    <div>
+      Uh, I hope I got this right... We'll go with (ingredient). ...for sure. Or, most likely. ✅
+    </div>
+    <div>
+      Now we need... It's (ingredient). ...that's my best guess. ✅
+    </div>
+    <div>
+      Now we need... We'll go with (ingredient). ...I'm XX% sure. ✅
+    </div>
+    <div>
+      Now we need... We'll go with (ingredient). ...what's the worst that could happen, right? ✅
+    </div>
+    <div>
+      Now we need... I'm going with (ingredient). ...these internet descriptions are iffy at best. ✅
+    </div>
+    <div>
+      Hold on... (ingredient). I'm XX% sure. ✅
+    </div>
+    <div>
+      Uh, if I read this correctly... uh... Oh I'm going with (ingredient). ...I'm XX% sure. ✅
+    </div>
+    <div>
+      It's supposed to be (ingredient)! Pour it in. ❌✅
+    </div>
+    <div>
+      It's supposed to be (ingredient)! That should get the process going. ❌✅
+    </div>
+    <div>
+      I messed up. It should'a been (ingredient). That should get it on. ❌✅
+    </div>
+    <div>
+      I messed up. It should'a been (ingredient). Pour it in. ❌✅
+    </div>
+    <div>
+      We need (ingredient)! ❌✅
+    </div>
+    <div>
+      That should'a been (ingredient)! ...unless I've missed something... ❌✅
+    </div>
+    <div>
+      ...(ingredient)?...I'm XX% sure. ❌✅
+    </div>
+    <div>
+      By method of elimination it has to be (ingredient). ...what's the worst that could happen, right? ❌✅
+    </div>
+    <div>
+      My bad. It's (ingredient). Add some. ❌✅
+    </div>
+  </span>
+</div>
+`;
