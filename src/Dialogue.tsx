@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import { dialogues } from "./dialogues";
 import "./Dialogue.css";
 
-var id = 0;
-
 function Dialogue() {
   document.title = "Bain's Dialogues";
   const [search, setSearch] = useState("");
@@ -25,7 +23,7 @@ function Dialogue() {
       />
       <span className="table">
         {filteredDialogues.map((d) => (
-          <div key={id++}>{d}</div>
+          <div key={d}>{d}</div>
         ))}
       </span>
     </div>
