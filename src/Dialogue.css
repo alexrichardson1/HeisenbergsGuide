@@ -1,0 +1,19 @@
+.table {
+  background-color: white;
+  border: yellowgreen;
+  border-width: 10px;
+  display: table;
+  margin-left: 50px;
+}
+
+input {
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 125px;
+  padding: 0.5rem;
+  display: block;
+  margin-left: 50px;
+  /* clear: left; */
+}
