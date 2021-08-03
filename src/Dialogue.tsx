@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { dialogues } from "./dialogues";
+import "./Dialogue.css";
 
 var id = 0;
 
@@ -22,10 +23,11 @@ function Dialogue() {
         placeholder="Enter Bain's Dialogue Here"
         onChange={(e) => setSearch(e.target.value)}
       />
-
-      {filteredDialogues.map((d) => (
-        <div key={id++}>{d}</div>
-      ))}
+      <span className="table">
+        {filteredDialogues.map((d) => (
+          <div key={id++}>{d}</div>
+        ))}
+      </span>
     </div>
   );
 }
