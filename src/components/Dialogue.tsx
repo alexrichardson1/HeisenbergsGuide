@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { dialogues } from "./dialogues";
-import "./styles/Dialogue.css";
+import { dialogues } from "../dialogues";
+import "../styles/Dialogue.css";
 
 function Dialogue() {
   var id = 0;
