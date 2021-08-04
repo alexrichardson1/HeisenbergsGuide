@@ -1,4 +1,4 @@
-import "../styles/App.css";
+import "../styles/Home.css";
 import { LinkContainer } from "react-router-bootstrap";
 
 function App() {
