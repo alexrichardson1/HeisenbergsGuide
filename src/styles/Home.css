@@ -8,12 +8,6 @@ h1 {
   margin-right: 50px;
 }
 
-body {
-  background: rgb(236, 240, 241);
-  background-image: url(../images/dallas.jpg);
-  background-attachment: fixed;
-}
-
 .info {
   border: 5px solid white;
   display: inline-block;
@@ -90,8 +84,3 @@ button div {
   transition: all 0.3s ease-in-out;
   color: white;
 }
-
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} 
