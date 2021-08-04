@@ -143,5 +143,19 @@ exports[`renders correctly 1`] = `
       My bad. It's (ingredient). Add some. ❌✅
     </div>
   </span>
+  <section
+    className="container active"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <button
+      data-hover="Go Back"
+    >
+      <div>
+        Cook Off Guide
+      </div>
+    </button>
+  </section>
 </div>
 `;

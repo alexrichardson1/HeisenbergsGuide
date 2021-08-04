@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { LinkContainer } from "react-router-bootstrap";
 import { dialogues } from "../dialogues";
 import "../styles/Dialogue.css";
 
@@ -27,6 +28,13 @@ function Dialogue() {
           <div key={id++}>{d}</div>
         ))}
       </span>
+      <LinkContainer to="/">
+        <section className="container">
+          <button data-hover="Go Back">
+            <div>Cook Off Guide</div>
+          </button>
+        </section>
+      </LinkContainer>
     </div>
   );
 }
