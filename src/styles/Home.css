@@ -22,11 +22,6 @@ h1 {
   margin-right: 50px;
 }
 
-body {
-  background-image: url(../images/masks.jpg);
-  background-size: cover;
-}
-
 *:before,
 *:after {
   box-sizing: border-box;
@@ -96,11 +91,20 @@ button div {
     margin-left: 50px;
     margin-right: 50px;
   }
+
+  body {
+    background-image: url(../images/masks.jpg);
+    background-size: cover;
+  }
 }
 
 /* handled devices */
 @media (max-width: 480px) {
   .info {
     font-size: 1em;
+  }
+
+  body {
+    background-color: black;
   }
 }
