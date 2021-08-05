@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
-import Home from "./components/Home";
+import Home from "./Home";
 
 test("renders correctly", () => {
   const tree = renderer

@@ -1,12 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
-import Dialogue from "./components/Dialogue";
+import NoPageFound from "./NoPageFound";
 
 test("renders correctly", () => {
   const tree = renderer
     .create(
       <BrowserRouter>
-        <Dialogue />
+        <NoPageFound />
       </BrowserRouter>
     )
     .toJSON();
