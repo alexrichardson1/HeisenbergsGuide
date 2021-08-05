@@ -13,7 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: React
     - run: yarn
     - run: yarn build
     - run: yarn test --ci
