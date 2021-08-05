@@ -22,6 +22,11 @@ h1 {
   margin-right: 50px;
 }
 
+body {
+  background-image: url(../images/masks.jpg);
+  background-size: cover;
+}
+
 *:before,
 *:after {
   box-sizing: border-box;
