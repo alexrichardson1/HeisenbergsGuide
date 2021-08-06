@@ -11,6 +11,16 @@ export const dialogues = [
   `Alright, next ingredient...(ingredient)? Sorry, that wasn't right. ${Emoji.Wrong}`,
   `Alright, let's see...We'll go with (ingredient). Strike that. ${Emoji.Wrong}`,
   `Hold on... I'm going with (ingredient). Wait a minute! ${Emoji.Wrong}`,
+  // Corrected information
+  `It's supposed to be (ingredient)! Pour it in. ${Emoji.Correction}`,
+  `It's supposed to be (ingredient)! That should get the process going. ${Emoji.Correction}`,
+  `I messed up. It should'a been (ingredient). That should get it on. ${Emoji.Correction}`,
+  `I messed up. It should'a been (ingredient). Pour it in. ${Emoji.Correction}`,
+  `We need (ingredient)! ${Emoji.Correction}`,
+  `That should'a been (ingredient)! ...unless I've missed something... ${Emoji.Correction}`,
+  `...(ingredient)?...I'm XX% sure. ${Emoji.Correction}`,
+  `By method of elimination it has to be (ingredient). ...what's the worst that could happen, right? ${Emoji.Correction}`,
+  `My bad. It's (ingredient). Add some. ${Emoji.Correction}`,
   // Correct information
   `Uh, I hope I got this right... (ingredient)? ...I'm XX% sure. ${Emoji.Correct}`,
   `Uh. I hope I got this right... (ingredient)? You got any of that lying around? ${Emoji.Correct}`,
@@ -41,14 +51,4 @@ export const dialogues = [
   `Now we need... I'm going with (ingredient). ...these internet descriptions are iffy at best. ${Emoji.Correct}`,
   `Hold on... (ingredient). I'm XX% sure. ${Emoji.Correct}`,
   `Uh, if I read this correctly... uh... Oh I'm going with (ingredient). ...I'm XX% sure. ${Emoji.Correct}`,
-  // Corrected information
-  `It's supposed to be (ingredient)! Pour it in. ${Emoji.Correction}`,
-  `It's supposed to be (ingredient)! That should get the process going. ${Emoji.Correction}`,
-  `I messed up. It should'a been (ingredient). That should get it on. ${Emoji.Correction}`,
-  `I messed up. It should'a been (ingredient). Pour it in. ${Emoji.Correction}`,
-  `We need (ingredient)! ${Emoji.Correction}`,
-  `That should'a been (ingredient)! ...unless I've missed something... ${Emoji.Correction}`,
-  `...(ingredient)?...I'm XX% sure. ${Emoji.Correction}`,
-  `By method of elimination it has to be (ingredient). ...what's the worst that could happen, right? ${Emoji.Correction}`,
-  `My bad. It's (ingredient). Add some. ${Emoji.Correction}`,
 ];
