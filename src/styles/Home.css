@@ -95,6 +95,7 @@ button div {
   body {
     background-image: url(../images/masks.jpg);
     background-size: cover;
+    background-attachment: fixed;
   }
 }
 
