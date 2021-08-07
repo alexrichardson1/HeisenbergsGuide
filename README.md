@@ -11,4 +11,4 @@ wait until he mentions the **same ingredient TWICE**, which can slow the process
 This website allows people who don't remember Bain's dialogue, to quickly discover if the ingredient he mentioned was correct or incorrect by
 simply typing in what he said. I have also included a page for a general guide to the Cook Off mission.
 
-All information regarding the mission is from this Steam guide: https://steamcommunity.com/sharedfiles/filedetails/?id=405540184
+All information regarding the mission is from this [Steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=405540184).
