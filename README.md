@@ -1,4 +1,4 @@
-# CookOff
+# Heisenberg's Guide
 Website to help with Payday 2 mission: Cook Off.
 
 During the mission, Bain will give you instructions to add ingredients (hydrogen chloride, muriatic acid, and caustic soda) to cook the meth in a
