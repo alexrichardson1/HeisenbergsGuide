@@ -37,4 +37,4 @@ jobs:
       run: yarn lint
     
     - name: Format
-      run: yarn format
+      run: yarn formatCI
