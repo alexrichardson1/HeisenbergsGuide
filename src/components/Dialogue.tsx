@@ -5,9 +5,12 @@ import "styles/Dialogue.css";
 
 function Dialogue(): JSX.Element {
   let id = 0;
-  document.title = "Bain's Dialogues";
   const [search, setSearch] = useState("");
   const [filteredDialogues, setFilteredDialogues] = useState(() => dialogues);
+
+  useEffect(() => {
+    document.title = "Bain's Dialogues";
+  }, []);
 
   useEffect(() => {
     setFilteredDialogues(

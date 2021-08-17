@@ -1,7 +1,12 @@
 import "styles/Home.css";
 import { LinkContainer } from "react-router-bootstrap";
+import { useEffect } from "react";
 
 function App(): JSX.Element {
+  useEffect(() => {
+    document.title = "Cook Off Guide";
+  }, []);
+
   return (
     <div>
       <h1>General Tips &amp; Information</h1>
