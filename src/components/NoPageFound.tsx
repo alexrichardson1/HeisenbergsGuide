@@ -1,6 +1,6 @@
 import { LinkContainer } from "react-router-bootstrap";
 
-function NoPageFound() {
+function NoPageFound(): JSX.Element {
   return (
     <div>
       <LinkContainer to="/">

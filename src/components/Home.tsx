@@ -1,10 +1,10 @@
-import "../styles/Home.css";
+import "styles/Home.css";
 import { LinkContainer } from "react-router-bootstrap";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div>
-      <h1>General Tips & Information</h1>
+      <h1>General Tips &amp; Information</h1>
       <p className="info">
         Grab a full set of ingredients from the locations that will be the most
         difficult to return to. The locations by most difficult to get to and
@@ -95,7 +95,7 @@ function App() {
       <LinkContainer to="/dialogue">
         <section className="container">
           <button data-hover="View Dialogue">
-            <div>Cook Off Bain's Dialogues</div>
+            <div>Cook Off Bain&apos;s Dialogues</div>
           </button>
         </section>
       </LinkContainer>

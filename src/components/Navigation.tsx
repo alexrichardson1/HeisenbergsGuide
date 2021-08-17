@@ -8,7 +8,7 @@ import Home from "./Home";
 import Dialogue from "./Dialogue";
 import NoPageFound from "./NoPageFound";
 
-const Navigation = () => {
+function Navigation(): JSX.Element {
   return (
     <Router>
       <div className="container">
@@ -21,6 +21,6 @@ const Navigation = () => {
       </div>
     </Router>
   );
-};
+}
 
 export default Navigation;
