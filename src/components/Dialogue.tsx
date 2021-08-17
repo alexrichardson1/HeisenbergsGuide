@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { LinkContainer } from "react-router-bootstrap";
-import { dialogues } from "../dialogues";
+import { dialogues } from "dialogues";
 import "styles/Dialogue.css";
 
 function Dialogue(): JSX.Element {
