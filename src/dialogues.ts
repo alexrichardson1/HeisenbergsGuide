@@ -4,7 +4,9 @@ enum Emoji {
   Correction = "❌✅",
 }
 
-export const dialogues = [
+type Dialogues = `${string}${Emoji}`;
+
+export const dialogues: Dialogues[] = [
   // Incorrect information
   `Now we need... I'm going with (ingredient). Hold up! ${Emoji.Wrong}`,
   `Uh... mhm...We'll go with (ingredient). Nope, that's not it! ${Emoji.Wrong}`,
