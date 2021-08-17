@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "yarn eslint --max-warnings 2 src/",
-    "format": "yarn prettier --check src/",
+    "format": "yarn prettier --write",
+    "formatCI": "yarn prettier --check src/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
