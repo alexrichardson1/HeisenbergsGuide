@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "yarn eslint --max-warnings 2 .",
+    "lint": "yarn eslint --max-warnings 2 src/",
     "format": "yarn prettier --check src/",
     "eject": "react-scripts eject"
   },
